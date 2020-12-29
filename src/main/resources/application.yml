@@ -1,0 +1,14 @@
+
+#url相关配置，这里配置url的基本url
+server:
+  port: 8081
+spring:
+  ## Elasticsearch配置文件（必须）
+  ## 该配置和Elasticsearch本地文件config下的elasticsearch.yml中的配置信息有关
+  data:
+    elasticsearch:
+      client:
+        reactive:
+          username: my-application
+          password: 127.0.0.1:9300
+
